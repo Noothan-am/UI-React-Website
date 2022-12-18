@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Chivo Mono', monospace;
+    width: 95%;
+    margin: auto;
+}
+
+.navbar_img {
+    display: flex;
+    align-items: center;
+}
+
+.navbar_img img {
+    margin-left: -2rem;
+    width: 80px;
+    height: 60px;
+}
+
+.navbar_links {
+    display: flex;
+}
+
+.navbar_links a {
+    text-decoration: none;
+    color: white;
+    margin: 0rem 1rem;
+}
+
+.navbar_sign {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar_links p,
+.navbar_sign p,
+.navbar_sign button,
+.navbar_img span {
+    color: white;
+}
+
+.navbar_sign button {
+    padding: .4rem 1.2rem;
+    margin-left: 1rem;
+    font-size: .9rem;
+    background-color: rgb(255, 172, 5);
+    border: 2px solid rgb(255, 170, 0);
+    border-radius: .6rem;
+
+}
