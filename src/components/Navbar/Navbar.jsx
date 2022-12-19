@@ -1,6 +1,7 @@
-import React from 'react'
+import React,{ useState }  from 'react'
 import './navbar.css'
 import logo from '../../img/logo.png'
+import { BiAlignRight } from "react-icons/bi";
 const Navbar = () => {
     return (
         <>
@@ -17,6 +18,9 @@ const Navbar = () => {
                 <div className="navbar_sign">
                     <p>Sign In</p>
                     <button>Sign Up</button>
+                </div>
+                <div className="navbar_menu">
+                <BiAlignRight/>
                 </div>
             </div>
         </>

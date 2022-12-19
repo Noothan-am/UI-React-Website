@@ -1,25 +1,24 @@
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 6fr 2fr;
+    text-align: left;
     font-family: 'Chivo Mono', monospace;
-    width: 95%;
+    max-width: 90%;
     margin: auto;
 }
 
 .navbar_img {
-    display: flex;
-    align-items: center;
+    text-align: left;
 }
 
 .navbar_img img {
-    margin-left: -2rem;
     width: 80px;
     height: 60px;
 }
 
 .navbar_links {
     display: flex;
+    align-items: center;
 }
 
 .navbar_links a {
@@ -31,22 +30,66 @@
 .navbar_sign {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .navbar_links p,
 .navbar_sign p,
 .navbar_sign button,
 .navbar_img span {
+    font-size: 1.2vmax;
     color: white;
 }
 
 .navbar_sign button {
     padding: .4rem 1.2rem;
-    margin-left: 1rem;
     font-size: .9rem;
     background-color: rgb(255, 172, 5);
     border: 2px solid rgb(255, 170, 0);
     border-radius: .6rem;
 
+}
+
+.navbar_menu svg {
+    width: 20px;
+    height: 30px;
+}
+
+.navbar_menu {
+    display: none;
+    align-items: center;
+}
+
+@media (max-width:800px) {
+    .navbar {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .navbar_menu {
+        display: flex;
+        justify-content: flex-end;
+        color: white;
+    }
+
+    .navbar_sign,
+    .navbar_links {
+        display: none;
+    }
+
+    .navbar_links a {
+        font-size: 1.3vmax;
+    }
+}
+
+@media (max-width:1080px) {
+
+    .navbar_links p,
+    .navbar_sign p,
+    .navbar_sign button,
+    .navbar_img span {
+        font-size: 1.2vmax;
+    }
+    .navbar_sign {
+        justify-content: space-between;
+    }
 }
