@@ -1,6 +1,6 @@
 import './app.css'
-import {Navbar} from './components/index'
-import {Header} from './containers/index'
+import {Navbar,SocialMedia} from './components/index'
+import {Header,Main} from './containers/index'
 function App() {
   return (
     <div className="App">
@@ -8,6 +8,8 @@ function App() {
         <Navbar/>
         <Header/>
       </div>
+      <SocialMedia/>
+      <Main/>
     </div>
   );
 }

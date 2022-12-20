@@ -62,7 +62,8 @@
 
 @media (max-width:800px) {
     .navbar {
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        justify-content: space-between;
     }
 
     .navbar_menu {
@@ -89,7 +90,14 @@
     .navbar_img span {
         font-size: 1.2vmax;
     }
+
     .navbar_sign {
         justify-content: space-between;
+    }
+}
+
+@media (min-width:1900px) {
+    .navbar {
+        width: 74%;
     }
 }

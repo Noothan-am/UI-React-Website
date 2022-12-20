@@ -6,17 +6,17 @@ function Header() {
     <>
       <div className='header'>
         <div className="header_content">
-          <h1 className='header_text'>OpenAI Is An Artificial Intelligence Research Laboratory</h1>
+          <h1 className='header_text'>OpenAI is an AI research and deployment company</h1>
           <div className="header_paragraph">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nostrum numquam veritatis dolor cupiditate pariatur facere possimus esse ipsam nulla, id, ut doloremque minus eos itaque, nobis adipisci voluptates atque. </p>
+            <p>OpenAI is an artificial intelligence research laboratory consisting of the for-profit corporation OpenAI LP and its parent company, the non-profit OpenAI Inc. The company conducts research in the field of AI with the stated goal of promoting and developing friendly AI in a way that benefits humanity as a whole.</p>
           </div>
           <div className="header_input">
             <input type="text" placeholder='Email Address'/>
-            <button type='submit'>Get Started</button>
+           <button type='submit'>Get Started</button>
           </div>
         </div>
         <div className="header_image">
-          <img src={mainimg} alt="random-image" />
+          <img src={mainimg} alt="random" />
         </div>
       </div>
     </>
