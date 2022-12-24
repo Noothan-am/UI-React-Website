@@ -1,6 +1,6 @@
 import './app.css'
 import {Navbar,SocialMedia} from './components/index'
-import {Header,Main} from './containers/index'
+import {Header,Main,Features,EarlyAccess} from './containers/index'
 function App() {
   return (
     <div className="App">
@@ -10,6 +10,8 @@ function App() {
       </div>
       <SocialMedia/>
       <Main/>
+      <Features/>
+      <EarlyAccess/>
     </div>
   );
 }

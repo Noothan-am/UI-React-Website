@@ -1,0 +1,28 @@
+.features{
+    width: 86%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem auto;
+    flex-wrap: wrap;
+}
+
+
+.features_left-part{
+    margin-top:3rem;
+    width: 100%;
+}
+
+.features_right-part {
+    /* width: 20%; */
+}
+
+.features_left-part h1{
+    font-size: 3rem;
+    background: -webkit-linear-gradient(50deg,rgb(253, 156, 248), #ffc400);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Cabin Sketch', cursive;
+
+}
