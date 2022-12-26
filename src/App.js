@@ -1,5 +1,5 @@
 import './app.css'
-import {Navbar,SocialMedia} from './components/index'
+import {Navbar,Register,SocialMedia} from './components/index'
 import {Header,Main,Features,EarlyAccess} from './containers/index'
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <Main/>
       <Features/>
       <EarlyAccess/>
+      <Register/>
     </div>
   );
 }
