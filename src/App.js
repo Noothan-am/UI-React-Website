@@ -1,6 +1,6 @@
 import './app.css'
 import {Navbar,Register,SocialMedia} from './components/index'
-import {Header,Main,Features,EarlyAccess} from './containers/index'
+import {Header,Main,Features,EarlyAccess, Documentations} from './containers/index'
 function App() {
   return (
     <div className="App">
@@ -13,6 +13,7 @@ function App() {
       <Features/>
       <EarlyAccess/>
       <Register/>
+      <Documentations/>
     </div>
   );
 }

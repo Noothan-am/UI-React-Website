@@ -5,7 +5,6 @@ function Register() {
     <>
     <div className="register">
         <div className="register_content">
-            <p>this is content</p>
             <h3>Register today and start exploring endless opportunities!!</h3>
         </div>
         <div className="register_btn">
