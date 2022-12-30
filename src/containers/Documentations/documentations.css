@@ -10,10 +10,10 @@
 }
 
 .documentation_heading h1{
-    background: -webkit-linear-gradient(-60deg,rgb(241, 104, 104), #ffde73);
+    background: -webkit-linear-gradient(-60deg,rgb(220, 104, 241), #ffde73);
     background-clip: text;
-    font-size: 5vmax;
-    margin: 1rem 1rem;
+    font-size: 4vmax;
+    margin: 3rem 1rem;
     text-align: center;
     margin-top: 8rem;
     -webkit-background-clip: text;

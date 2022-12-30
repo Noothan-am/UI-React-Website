@@ -1,6 +1,6 @@
 import './app.css'
 import {Navbar,Register,SocialMedia} from './components/index'
-import {Header,Main,Features,EarlyAccess, Documentations} from './containers/index'
+import {Header,Main,Features,EarlyAccess, Documentations, Footer} from './containers/index'
 function App() {
   return (
     <div className="App">
@@ -14,6 +14,7 @@ function App() {
       <EarlyAccess/>
       <Register/>
       <Documentations/>
+      <Footer/>
     </div>
   );
 }
