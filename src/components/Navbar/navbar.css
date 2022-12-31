@@ -26,6 +26,9 @@
     color: white;
     margin: 0rem 1rem;
 }
+.navbar_links a:hover {
+    color: rgb(161, 191, 255);
+}
 
 .navbar_sign {
     display: flex;
