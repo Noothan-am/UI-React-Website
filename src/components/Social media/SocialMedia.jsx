@@ -10,10 +10,10 @@ function SocialMedia() {
   return (
     <>
     <div className="socialMedia">
-      <img src={dropbox} alt="" />
-      <img src={shopify} alt="" />
-      <img src={google} alt="" />
-      <img src={slack} alt="" />
+      <img src={dropbox} alt="socialMedia-logo" />
+      <img src={shopify} alt="socialMedia-logo" />
+      <img src={google} alt="socialMedia-logo" />
+      <img src={slack} alt="socialMedia-logo" />
     </div>
     </>
   )

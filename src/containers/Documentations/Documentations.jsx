@@ -14,22 +14,22 @@ function Documentations() {
         {
             img: OpenAI,
             heading: "OpenAI",
-            paragraph: "sample"
+            paragraph: "OpenAI is a research organization that focuses on developing and promoting friendly artificial intelligence."
         },
         {
             img: Dalle,
             heading: "DALL·E 2",
-            paragraph: "sample"
+            paragraph: "OpenAI's DALL-E 2 is a state-of-the-art artificial intelligence system that has the ability to generate images from text descriptions."
         },
         {
             img: ChatGPT,
             heading: "ChatGPT",
-            paragraph: "sample"
+            paragraph: "ChatGPT is a natural language processing (NLP) model developed by OpenAI. It is capable of generating human-like text responses in real-time based on input from a user. ple"
         },
         {
             img: Playground,
             heading: "Playground",
-            paragraph: "sample"
+            paragraph: "OpenAI Playground is a web-based platform for experimenting with and learning about artificial intelligence. "
         }
     ]
 
@@ -44,7 +44,7 @@ function Documentations() {
                 </div>
                 <div className="documentation_cards">
                     {data.map(e => {
-                        return <Card img={e.img} heading={e.heading} paragraph={"Lorem ipsum dolor sit, amet consectetur adipisicing elit."} />
+                        return <Card img={e.img} heading={e.heading} paragraph={e.paragraph} />
                     })}
                 </div>
             </div>

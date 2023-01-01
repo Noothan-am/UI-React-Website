@@ -1,15 +1,17 @@
 import React from 'react'
-import vrImg from '../../img/vr.png'
+import vrImage from '../../img/vr.png'
 import './earlyAccess.css'
 function EarlyAccess() {
     return (
         <div className="earlyAccess">
             <div className="earlyAccess_img">
-                <img src={vrImg} alt="Random image" />
+                <img src={vrImage} alt="Randomphoto" />
             </div>
             <div className="earlyAccess_content">
                 <h5>Get Early Access!!</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis facilis quisquam, tempora reprehenderit ipsum explicabo distinctio ipsam laudantium assumenda. Perspiciatis minima odio iste, explicabo adipisci illum placeat quia deleniti impedit?</p>
+                <p>Early access will give you the opportunity to try out the product/service before it is widely available and provide valuable input that will help shape the final product. We value your opinion and want to make sure we are delivering the best possible experience for our users. 
+                <br />
+                <br/>If you are interested in getting early access, please let us know and we will provide you with more information on how to get started.</p>
                 <button>JOIN NOW !!</button>
             </div>
         </div>
