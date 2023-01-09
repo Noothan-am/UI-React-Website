@@ -79,12 +79,21 @@
         display: flex;
         justify-content: flex-end;
         color: white;
-        margin-top: 1rem;
     }
     .navbar_links-toggle a{
         text-decoration: none;
         color: rgb(255, 255, 255);
         cursor: pointer;
+    }
+
+    .navbar_links-toggle button {
+        padding: .4rem 1.2rem;
+        width: 100%;
+        font-size: .9rem;
+        margin-top: 1.3rem;
+        background-color: rgb(255, 172, 5);
+        border: 2px solid rgb(255, 170, 0);
+        border-radius: .6rem;    
     }
 
     .navbar_links-toggle p{
