@@ -9,7 +9,7 @@ import slack from '../../img/slack.png'
 function SocialMedia() {
   return (
     <>
-    <div className="socialMedia">
+    <div className="socialMedia" id='socialMedia'>
       <img src={dropbox} alt="socialMedia-logo" />
       <img src={shopify} alt="socialMedia-logo" />
       <img src={google} alt="socialMedia-logo" />

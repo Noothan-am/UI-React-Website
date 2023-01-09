@@ -3,7 +3,7 @@ import vrImage from '../../img/vr.png'
 import './earlyAccess.css'
 function EarlyAccess() {
     return (
-        <div className="earlyAccess">
+        <div className="earlyAccess" id='earlyAccess'>
             <div className="earlyAccess_img">
                 <img src={vrImage} alt="Randomphoto" />
             </div>

@@ -70,6 +70,7 @@
 
 @media (max-width:800px) {
     .navbar {
+        position: sticky;
         display: flex;
         justify-content: space-between;
     }
@@ -78,11 +79,34 @@
         display: flex;
         justify-content: flex-end;
         color: white;
+        margin-top: 1rem;
+    }
+    .navbar_links-toggle a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
     }
 
+    .navbar_links-toggle p{
+        margin-top: 1.8rem;
+        font-size: 1.5rem;
+    }
+
+    .navbar_links-toggle{
+        position: absolute;
+        top: 4rem;
+        background-color: rgba(0, 0, 0, 78%);
+        opacity: 1.5;
+        padding: 2rem;
+        list-style: none;
+    }
     .navbar_sign,
     .navbar_links {
         display: none;
+    }
+
+    .navbar_img img {
+        margin-top: 1.4rem;
     }
 
     .navbar_links a {

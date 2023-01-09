@@ -38,7 +38,7 @@ function Documentations() {
     return (
         <>
 
-            <div className="documentation">
+            <div className="documentation" id='documentation'>
                 <div className="documentation_heading">
                     <h1>Visit out websites from here !!</h1>
                 </div>

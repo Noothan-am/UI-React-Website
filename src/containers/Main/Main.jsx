@@ -5,7 +5,7 @@ import { Comp } from '../../components'
 function Main() {
   return (
     <>
-      <div className="main_container">
+      <div className="main_container" id='openai'>
         <div className="main_part1-feature">
           <Comp title={"OpenAI ??"} discription={"OpenAI is a research laboratory based in San Francisco, California. Our mission is to ensure that artificial general intelligence benefits all of humanity."} />
         </div>
